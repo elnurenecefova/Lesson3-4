@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    color: #fff;
+    background-color: rgba(83, 83, 83, 0.204);
+    padding: 15px 20px;
+    font-size: 10px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border-radius: 4px;
+}
+
+.ox {
+    color: #fff;
+    background-color: rgba(83, 83, 83, 0.204);
+    padding: 15px 20px;
+    font-size: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 4px;
+}
+
+#first {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 13rem;
+}
+
+#first h1 {
+    color: #0c0c0c;
+    font-size: 4rem;
+}
+
+#first h3 {
+    color: #212529;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+}
+
+#first a {
+    background-color: #1d809f;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#second {
+    text-align: center;
+    padding: 6rem 0;
+}
+
+#second h2 {
+    color: #212529;
+    font-size: 2rem;
+}
+
+#second p {
+    color: #212529;
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+#second .a2 {
+    background-color: #212529;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.son {
+    background-color: #1d809f;
+    padding: 10rem 0;
+}
+
+.son .son-text h3 {
+    text-align: center;
+    color: #ecb807;
+    font-size: 1rem;
+}
+
+.son .son-text h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.son .son-text {
+    text-align: center;
+}
+
+.all {
+
+    color: #fff;
+}
+
+.all .box {
+    float: left;
+    width: 25%;
+}
+
+.all .box h4 {
+    font-size: 24px;
+}
+
+.all .box p {
+    font-size: 1rem;
+}
+
+#third {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 10rem 0;
+    margin-bottom: 5rem;
+}
+
+#third h2 {
+    font-size: 56px;
+    color: #212529;
+    margin-bottom: 50px;
+}
+
+#third a {
+    background-color: #1d809f;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#fourth {
+    background-color: #1d809f;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 6rem 0;
+
+}
+
+#fourth h2 {
+    color: #fff;
+    margin: 50px;
+    font-size: 30px;
+}
+
+#fourth .a3 {
+    background-color: #fff;
+    color: #212529;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#fourth .a4 {
+    background-color: #212529;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.last {
+    text-align: center;
+    color: #6c757d;
+    font-size: 14px;
+    margin: 5rem 0;
+}
+
+.sixth {
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.sixth .sixth-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sixth-text h3 {
+    color: #ecb807;
+    font-size: 1rem;
+}
+
+.sixth-text h2 {
+    color: #212529;
+    font-size: 3rem;
+}
+.sixth .main{
+    margin: auto;
+    width: 90%;
+}
+.sixth .part{
+    float: left;
+    width: 50%; 
+    position: relative;
+    transition: .4s; 
+}
+.sixth .part:hover{
+    transform: scale(.8);
+}
+.sixth .part img{
+    vertical-align: bottom;
+    width: 100%;
+}
+.sixth .part-text{
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: .8s;
+    background-color: #4b7684;
+    opacity: 0;
+}
+.sixth .part:hover .overlay{
+    opacity: 0.8;
+}
